@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dharma Sasta - Portfolio</title>
+    <meta name="description" content="Nandipati Sri Dharma Sasta - Computer Science & Engineering Student at NIT Patna. Passionate about algorithms, data structures, and software development.">
+    <meta name="keywords" content="Dharma Sasta, Computer Science, NIT Patna, Software Development, Machine Learning, Portfolio">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <link rel="stylesheet" href="style.CSS">
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-content">
+                    <h1 class="nav-title">Dharma Sasta</h1>
+                    <div class="nav-links">
+                        <a href="#about" class="nav-link">About</a>
+                        <a href="#education" class="nav-link">Education</a>
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </div>
+                    <!-- Mobile menu button -->
+                    <button class="mobile-menu-btn" id="mobileMenuBtn">
+                        <i data-lucide="menu"></i>
+                    </button>
+                </div>
+                <!-- Mobile menu -->
+                <div class="mobile-menu" id="mobileMenu">
+                    <a href="#about" class="mobile-nav-link">About</a>
+                    <a href="#education" class="mobile-nav-link">Education</a>
+                    <a href="#projects" class="mobile-nav-link">Projects</a>
+                    <a href="#contact" class="mobile-nav-link">Contact</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        Nandipati Sri <span class="hero-highlight">Dharma Sasta</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Computer Science & Engineering Student at NIT Patna
+                    </p>
+                    <p class="hero-description">
+                        Passionate about algorithms, data structures, and software development. 
+                        Dedicated to continuous learning and solving complex problems.
+                    </p>
+                    
+                    <!-- Contact Links -->
+                    <div class="contact-links">
+                        <button class="contact-btn" onclick="sendEmail()" title="Send Email">
+                            <i data-lucide="mail"></i>
+                            <span>Email</span>
+                        </button>
+                        <button class="contact-btn" onclick="makeCall()" title="Call Now">
+                            <i data-lucide="phone"></i>
+                            <span>Call</span>
+                        </button>
+                        <a href="https://github.com/dharma8123" target="_blank" rel="noopener noreferrer" class="contact-btn" title="Visit GitHub">
+                            <i data-lucide="github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/nandipati-sri-dharma-sasta-a8358825b" target="_blank" rel="noopener noreferrer" class="contact-btn contact-btn-primary" title="Connect on LinkedIn">
+                            <i data-lucide="linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <i data-lucide="user"></i>
+                        About Me
+                    </h2>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-text">
+                        <p class="about-paragraph">
+                            I am a passionate and motivated Computer Science and Engineering undergraduate at the 
+                            National Institute of Technology Patna. My academic journey is marked by dedication, 
+                            continuous learning, and an eagerness to solve complex problems.
+                        </p>
+                        <p class="about-paragraph">
+                            I strive to deepen my knowledge in areas such as algorithms, data structures, and 
+                            software development, aiming to contribute meaningfully to the tech industry.
+                        </p>
+                    </div>
+                    
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <i data-lucide="code" class="skill-icon skill-icon-blue"></i>
+                            <h3 class="skill-title">Programming</h3>
+                            <p class="skill-description">Python, Data Structures</p>
+                        </div>
+                        <div class="skill-card">
+                            <i data-lucide="brain" class="skill-icon skill-icon-green"></i>
+                            <h3 class="skill-title">Machine Learning</h3>
+                            <p class="skill-description">Object Recognition, HOG</p>
+                        </div>
+                        <div class="skill-card">
+                            <i data-lucide="database" class="skill-icon skill-icon-purple"></i>
+                            <h3 class="skill-title">Algorithms</h3>
+                            <p class="skill-description">Problem Solving</p>
+                        </div>
+                        <div class="skill-card">
+                            <i data-lucide="graduation-cap" class="skill-icon skill-icon-yellow"></i>
+                            <h3 class="skill-title">Learning</h3>
+                            <p class="skill-description">Continuous Growth</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <i data-lucide="graduation-cap"></i>
+                        Education
+                    </h2>
+                </div>
+                
+                <div class="education-content">
+                    <div class="education-card">
+                        <div class="education-icon">
+                            <i data-lucide="graduation-cap"></i>
+                        </div>
+                        <div class="education-details">
+                            <h3 class="education-degree">Bachelor of Technology</h3>
+                            <p class="education-field">Computer Science and Engineering</p>
+                            <p class="education-institution">National Institute of Technology Patna</p>
+                            <p class="education-description">
+                                Focused on algorithms, data structures, and software development with a 
+                                commitment to academic excellence and practical application.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <i data-lucide="briefcase"></i>
+                        Projects
+                    </h2>
+                </div>
+                
+                <div class="projects-grid">
+                    <!-- Portfolio Website -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon project-icon-blue">
+                                <i data-lucide="code"></i>
+                            </div>
+                            <h3 class="project-title">Portfolio Website</h3>
+                        </div>
+                        <p class="project-description">
+                            A personal portfolio website showcasing my skills, projects, and professional journey 
+                            as a Computer Science student.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag tag-blue">Web Development</span>
+                            <span class="tag tag-gray">Frontend</span>
+                        </div>
+                    </div>
+
+                    <!-- ML Project -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon project-icon-green">
+                                <i data-lucide="brain"></i>
+                            </div>
+                            <h3 class="project-title">Object Recognition Enhancement</h3>
+                        </div>
+                        <p class="project-subtitle">A Machine Learning Approach with HOG Classifier</p>
+                        <p class="project-description">
+                            Improved object detection using HOG features and machine learning classifiers, 
+                            demonstrating practical application of computer vision techniques.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag tag-green">Python</span>
+                            <span class="tag tag-orange">Jupyter Notebook</span>
+                            <span class="tag tag-purple">Machine Learning</span>
+                            <span class="tag tag-blue">Computer Vision</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="section-container">
+                <div class="contact-header">
+                    <h2 class="section-title">
+                        <i data-lucide="mail"></i>
+                        Get In Touch
+                    </h2>
+                    <p class="contact-subtitle">
+                        I'm always open to discussing new opportunities, collaborations, or just having a 
+                        conversation about technology and innovation.
+                    </p>
+                </div>
+                
+                <div class="contact-grid">
+                    <button class="contact-card" onclick="sendEmail()" title="Send Email">
+                        <i data-lucide="mail" class="contact-card-icon contact-icon-blue"></i>
+                        <h3 class="contact-card-title">Email</h3>
+                        <p class="contact-card-text">sastadharma@gmail.com</p>
+                    </button>
+                    
+                    <button class="contact-card" onclick="makeCall()" title="Call Now">
+                        <i data-lucide="phone" class="contact-card-icon contact-icon-green"></i>
+                        <h3 class="contact-card-title">Phone</h3>
+                        <p class="contact-card-text">+91 9581575761</p>
+                    </button>
+                    
+                    <a href="https://github.com/dharma8123" target="_blank" rel="noopener noreferrer" class="contact-card" title="Visit GitHub">
+                        <i data-lucide="github" class="contact-card-icon contact-icon-purple"></i>
+                        <h3 class="contact-card-title">GitHub</h3>
+                        <p class="contact-card-text">dharma8123</p>
+                    </a>
+                    
+                    <a href="https://www.linkedin.com/in/nandipati-sri-dharma-sasta-a8358825b" target="_blank" rel="noopener noreferrer" class="contact-card" title="Connect on LinkedIn">
+                        <i data-lucide="linkedin" class="contact-card-icon contact-icon-linkedin"></i>
+                        <h3 class="contact-card-title">LinkedIn</h3>
+                        <p class="contact-card-text">Connect with me</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-container">
+                <p class="footer-text">
+                    © 2024 Nandipati Sri Dharma Sasta. Built with passion for technology and innovation.
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        // Email and Phone Functions
+        function sendEmail() {
+            const email = 'sastadharma@gmail.com';
+            const subject = 'Hello from your Portfolio';
+            const body = 'Hi Dharma,\n\nI visited your portfolio and would like to get in touch.\n\nBest regards,';
+            
+            // Try multiple methods to ensure email works
+            try {
+                // Method 1: Direct mailto
+                const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+                window.location.href = mailtoLink;
+                
+                console.log('✓ Email function triggered:', mailtoLink);
+                
+                // Show user feedback
+                showNotification('Opening email client...', 'success');
+                
+            } catch (error) {
+                console.error('Email error:', error);
+                
+                // Fallback: Copy email to clipboard
+                copyToClipboard(email);
+                showNotification(`Email copied to clipboard: ${email}`, 'info');
+            }
+        }
+
+        function makeCall() {
+            const phoneNumber = '+919581575761';
+            
+            try {
+                // Method 1: Direct tel link
+                const telLink = `tel:${phoneNumber}`;
+                window.location.href = telLink;
+                
+                console.log('✓ Phone function triggered:', telLink);
+                
+                // Show user feedback
+                showNotification('Opening phone dialer...', 'success');
+                
+            } catch (error) {
+                console.error('Phone error:', error);
+                
+                // Fallback: Copy number to clipboard
+                copyToClipboard(phoneNumber);
+                showNotification(`Phone number copied to clipboard: ${phoneNumber}`, 'info');
+            }
+        }
+
+        // Utility function to copy text to clipboard
+        function copyToClipboard(text) {
+            if (navigator.clipboard && window.isSecureContext) {
+                // Modern clipboard API
+                navigator.clipboard.writeText(text).then(() => {
+                    console.log('✓ Copied to clipboard:', text);
+                }).catch(err => {
+                    console.error('Clipboard error:', err);
+                    fallbackCopyTextToClipboard(text);
+                });
+            } else {
+                // Fallback for older browsers
+                fallbackCopyTextToClipboard(text);
+            }
+        }
+
+        function fallbackCopyTextToClipboard(text) {
+            const textArea = document.createElement("textarea");
+            textArea.value = text;
+            textArea.style.top = "0";
+            textArea.style.left = "0";
+            textArea.style.position = "fixed";
+            textArea.style.opacity = "0";
+            
+            document.body.appendChild(textArea);
+            textArea.focus();
+            textArea.select();
+            
+            try {
+                const successful = document.execCommand('copy');
+                if (successful) {
+                    console.log('✓ Fallback copy successful:', text);
+                } else {
+                    console.log('✗ Fallback copy failed');
+                }
+            } catch (err) {
+                console.error('Fallback copy error:', err);
+            }
+            
+            document.body.removeChild(textArea);
+        }
+
+        // Notification system
+        function showNotification(message, type = 'info') {
+            // Remove existing notifications
+            const existingNotifications = document.querySelectorAll('.notification');
+            existingNotifications.forEach(notification => notification.remove());
+            
+            // Create notification element
+            const notification = document.createElement('div');
+            notification.className = `notification notification-${type}`;
+            notification.textContent = message;
+            
+            // Style the notification
+            notification.style.cssText = `
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                background: ${type === 'success' ? '#10b981' : type === 'error' ? '#ef4444' : '#3b82f6'};
+                color: white;
+                padding: 12px 20px;
+                border-radius: 8px;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+                z-index: 1000;
+                font-weight: 500;
+                max-width: 300px;
+                word-wrap: break-word;
+                animation: slideInRight 0.3s ease-out;
+            `;
+            
+            // Add animation keyframes if not already added
+            if (!document.querySelector('#notification-styles')) {
+                const style = document.createElement('style');
+                style.id = 'notification-styles';
+                style.textContent = `
+                    @keyframes slideInRight {
+                        from {
+                            transform: translateX(100%);
+                            opacity: 0;
+                        }
+                        to {
+                            transform: translateX(0);
+                            opacity: 1;
+                        }
+                    }
+                    @keyframes slideOutRight {
+                        from {
+                            transform: translateX(0);
+                            opacity: 1;
+                        }
+                        to {
+                            transform: translateX(100%);
+                            opacity: 0;
+                        }
+                    }
+                `;
+                document.head.appendChild(style);
+            }
+            
+            document.body.appendChild(notification);
+            
+            // Auto remove after 3 seconds
+            setTimeout(() => {
+                notification.style.animation = 'slideOutRight 0.3s ease-out';
+                setTimeout(() => {
+                    if (notification.parentNode) {
+                        notification.remove();
+                    }
+                }, 300);
+            }, 3000);
+        }
+
+        // Wait for DOM to be fully loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize Lucide icons
+            if (typeof lucide !== 'undefined') {
+                lucide.createIcons();
+            }
+
+            // Mobile menu functionality
+            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+            const mobileMenu = document.getElementById('mobileMenu');
+            
+            if (mobileMenuBtn && mobileMenu) {
+                mobileMenuBtn.addEventListener('click', function() {
+                    mobileMenu.classList.toggle('active');
+                    
+                    // Toggle icon between menu and X
+                    const icon = mobileMenuBtn.querySelector('i');
+                    if (mobileMenu.classList.contains('active')) {
+                        icon.setAttribute('data-lucide', 'x');
+                    } else {
+                        icon.setAttribute('data-lucide', 'menu');
+                    }
+                    
+                    // Recreate icons after changing
+                    if (typeof lucide !== 'undefined') {
+                        lucide.createIcons();
+                    }
+                });
+
+                // Close mobile menu when clicking on a link
+                const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+                mobileNavLinks.forEach(link => {
+                    link.addEventListener('click', function() {
+                        mobileMenu.classList.remove('active');
+                        const icon = mobileMenuBtn.querySelector('i');
+                        icon.setAttribute('data-lucide', 'menu');
+                        if (typeof lucide !== 'undefined') {
+                            lucide.createIcons();
+                        }
+                    });
+                });
+            }
+
+            // Smooth scrolling for navigation links
+            const navLinks = document.querySelectorAll('a[href^="#"]');
+            navLinks.forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const target = document.querySelector(targetId);
+                    
+                    if (target) {
+                        const offsetTop = target.offsetTop - 80; // Account for fixed navbar
+                        window.scrollTo({
+                            top: offsetTop,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+
+            // Add scroll effect to navbar
+            const navbar = document.querySelector('.navbar');
+            if (navbar) {
+                window.addEventListener('scroll', function() {
+                    if (window.scrollY > 50) {
+                        navbar.classList.add('scrolled');
+                    } else {
+                        navbar.classList.remove('scrolled');
+                    }
+                });
+            }
+
+            // Add animation on scroll for cards
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const observer = new IntersectionObserver(function(entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animate-in');
+                    }
+                });
+            }, observerOptions);
+
+            // Observe all cards and sections
+            const animatedElements = document.querySelectorAll('.skill-card, .project-card, .contact-card, .education-card');
+            animatedElements.forEach(el => {
+                observer.observe(el);
+            });
+
+            // Add click feedback for buttons
+            const buttons = document.querySelectorAll('.contact-btn, .contact-card');
+            buttons.forEach(button => {
+                button.addEventListener('click', function() {
+                    this.style.transform = 'scale(0.95)';
+                    setTimeout(() => {
+                        this.style.transform = '';
+                    }, 150);
+                });
+            });
+
+            // Test contact functionality
+            console.log('=== CONTACT FUNCTIONALITY TEST ===');
+            console.log('✓ Email function available:', typeof sendEmail === 'function');
+            console.log('✓ Phone function available:', typeof makeCall === 'function');
+            console.log('✓ Email address: sastadharma@gmail.com');
+            console.log('✓ Phone number: +91 9581575761');
+            console.log('✓ GitHub: https://github.com/dharma8123');
+            console.log('✓ LinkedIn: https://www.linkedin.com/in/nandipati-sri-dharma-sasta-a8358825b');
+            console.log('=== END TEST ===');
+        });
+
+        // Fallback for older browsers
+        if (!window.IntersectionObserver) {
+            const animatedElements = document.querySelectorAll('.skill-card, .project-card, .contact-card, .education-card');
+            animatedElements.forEach(el => {
+                el.classList.add('animate-in');
+            });
+        }
+    </script>
+</body>
+</html>
